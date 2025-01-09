@@ -1,9 +1,17 @@
 # react-native-exit-app
 Exit / Close / Kill / shutdown your react native app. Does not invoke a crash notification.
 
+This package replace from react-native-exit-app, because of no more action on origin's contributor in years.
+<br/>
+Original link is: <a href="https://github.com/wumke/react-native-exit-app" target="_blank">Link</a>
+<br/>
+I'll keep every source code, including package name. without bugs one.
+<br/>
+you can find this issue, in this link <a href="https://github.com/wumke/react-native-exit-app/pull/72" target="_blank">Link</a>
+
 NOTICE:
-- for React Native < 0.47 use react-native-exit-app <1.x.x
-- for React Native > 0.47 use react-native-exit-app >=1.x.x
+- for React Native < 0.47 use react-native-exit-app2 <1.x.x
+- for React Native > 0.47 use react-native-exit-app2 >=1.x.x
 - React Native with **new architecture** enabled use react-native-exit-app >=2.x.x (**compatible with old architecture**)
 
 ## Setup
@@ -11,13 +19,13 @@ NOTICE:
 NOTICE:
 Installation steps can be skipped in new architecture and newer React Native versions, just 
 ```bash
-npm install react-native-exit-app --save
+npm install react-native-exit-app2 --save
 ```
 
 Fast and easy:
 ```bash
-npm install react-native-exit-app --save
-react-native link react-native-exit-app
+npm install react-native-exit-app2 --save
+react-native link react-native-exit-app2
 ```
 
 Or manual: add the latest version as dependeny to your package.json.
@@ -29,7 +37,7 @@ Or manual: add the latest version as dependeny to your package.json.
   },
   "dependencies": {
     ...
-    "react-native-exit-app": "0.1.0",
+    "react-native-exit-app2": "0.1.0",
     ...
   }
 ```
@@ -42,12 +50,12 @@ Or manual: add the latest version as dependeny to your package.json.
 #### Android
 * In the settings.gradle
   ```
-    include ':react-native-exit-app', ':app'
-    project(':react-native-exit-app').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-exit-app/android')
+    include ':react-native-exit-app2', ':app'
+    project(':react-native-exit-app2').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-exit-app2/android')
   ```
 * In the build.gradle
   ```
-    compile project(':react-native-exit-app')
+    compile project(':react-native-exit-app2')
   ```
 * In MainApplication.java
   ```
@@ -66,7 +74,7 @@ Or manual: add the latest version as dependeny to your package.json.
 ## Usage
 
 ```javascript
-import RNExitApp from 'react-native-exit-app';
+import RNExitApp from 'react-native-exit-app2';
 ...
 RNExitApp.exitApp();
 ...

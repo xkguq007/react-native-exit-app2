@@ -1,6 +1,6 @@
 {
-  "name": "react-native-exit-app",
-  "version": "2.0.0",
+  "name": "react-native-exit-app2",
+  "version": "2.0.1",
   "description": "Exit,close,kill,shutdown app completely for React Native on iOS and Android.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wumke/react-native-exit-app"
+    "url": "https://github.com/xkguq007/react-native-exit-app2"
   },
   "types": "index.d.ts",
   "keywords": [
@@ -24,9 +24,9 @@
   "author": "Wumke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wumke/react-native-exit-app/issues"
+    "url": "https://github.com/xkguq007/react-native-exit-app2/issues"
   },
-  "homepage": "https://github.com/wumke/react-native-exit-app",
+  "homepage": "https://github.com/xkguq007/react-native-exit-app2",
   "codegenConfig": {
     "name": "RNExitAppSpec",
     "type": "modules",
