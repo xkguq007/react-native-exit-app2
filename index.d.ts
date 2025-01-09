@@ -2,7 +2,7 @@
 // Project: https://github.com/wumke/react-native-exit-app
 // Definitions by: Anton Dyshkant <https://github.com/vyshkant>
 
-declare module 'react-native-exit-app' {
+declare module 'react-native-exit-app2' {
 
     const RNExitApp: {
         exitApp: () => void
