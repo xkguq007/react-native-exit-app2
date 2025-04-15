@@ -1,5 +1,5 @@
 # update
-rn > 0.76, use v3.0.0
+rn > 0.76, use v3.0.x
 rn <= 0.76, use v2.0.2 (not 2.0.3)
 
 
