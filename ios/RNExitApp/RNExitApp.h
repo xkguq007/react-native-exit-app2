@@ -6,14 +6,7 @@
 #import "React/RCTBridgeModule.h"
 #endif
 
-#if RCT_NEW_ARCH_ENABLED
 #import <RNExitAppSpec/RNExitAppSpec.h>
-#endif
 
-@interface RNExitApp : NSObject <RCTBridgeModule>
+@interface RNExitApp : NSObject <RCTBridgeModule, NativeRNExitAppSpec>
 @end
-
-#if RCT_NEW_ARCH_ENABLED
-@interface RNExitApp () <NativeRNExitAppSpec>
-@end
-#endif
